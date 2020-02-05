@@ -9,5 +9,5 @@ class MathsTestCase(unittest.TestCase):
         self.assertEqual(5, tutorial.subtract(10, 5))
 
     def test_subtract_zero(self):
-        self.assertEqual(1, tutorial.subtract(0, 0))
+        self.assertEqual(0, tutorial.subtract(0, 0))
 
